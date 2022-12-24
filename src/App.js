@@ -1,12 +1,10 @@
 import { Link } from 'react-router-dom';
 import './App.css';
 import AppWrapper from './components/AppWrapper/AppWrapper';
-import Blog from './components/Blog';
+// import Blog from './components/Blog';
 import Features from './components/Features/Features';
 import List from './components/List';
-// import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
-// import "pure-react-carousel/dist/react-carousel.es.css";
-// import HomePage from './components/HomePage/HomePage';
+import banner1 from './images/banner1.jpg'
 import Pricing from './components/Pricing';
 // import Stats from './components/Stats';
 import Teams from './components/Teams';
@@ -25,7 +23,7 @@ function App() {
         <div>
             <div className="2xl:mx-auto 2xl:container md:py-12 py-9">
                 <div className="relative rounded-md">
-                    <img src="https://linkpicture.com/q/banner2_10.jpg" alt="city view" className="w-full h-full rounded-md  object-center object-fill absolute sm:block hidden" />
+                    <img src={banner1} alt="city view" className="w-full h-full rounded-md  object-center object-fill absolute sm:block hidden" />
                     <img src="https://linkpicture.com/q/banner2_10.jpg" alt="city view" className="w-full h-full rounded-md absolute object-center object-fill sm:hidden" />
                     <div className="text-xl relative z-20 bg-gradient-to-r from-blue-700 to-transparent w-full h-full z-40 top-0 md:p-16 p-6 flex flex-col justify-between rounded-md ">
                         <div>

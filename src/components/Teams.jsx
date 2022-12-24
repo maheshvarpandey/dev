@@ -1,5 +1,13 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
+import img1 from '../images/cover2.jpg';
+import img2 from '../images/cover3.jpg';
+import img3 from '../images/cover4.jpg';
+import img4 from '../images/cover5.jpg';
+import img5 from '../images/cover7.jpg';
+import img6 from '../images/banner2.jpg';
+
+
 function Teams() {
     return (
         <div className="mb-6">
@@ -15,24 +23,24 @@ function Teams() {
                         <div className="flex flex-wrap -m-1 md:-m-2">
                             <div className="flex flex-wrap w-1/2">
                                 <div className="w-1/2 p-1 md:p-2">
-                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg" src="https://www.linkpicture.com/q/img6.jpeg" />
+                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg" src={img1} />
                                 </div>
                                 <div className="w-1/2 p-1 md:p-2">
-                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg" src="https://www.linkpicture.com/q/img5.jpeg" />
+                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg" src={img2} />
                                 </div>
                                 <div className="w-full p-1 md:p-2">
-                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg" src="https://www.linkpicture.com/q/img1_1.jpeg" />
+                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg" src={img3} />
                                 </div>
                             </div>
                             <div className="flex flex-wrap w-1/2">
                                 <div className="w-full p-1 md:p-2">
-                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg" src="https://www.linkpicture.com/q/img2.jpeg" />
+                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg" src={img4} />
                                 </div>
                                 <div className="w-1/2 p-1 md:p-2">
-                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg" src="https://www.linkpicture.com/q/img3.jpeg" />
+                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg" src={img5} />
                                 </div>
                                 <div className="w-1/2 p-1 md:p-2">
-                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg" src="https://www.linkpicture.com/q/img4.jpeg" />
+                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg" src={img6} />
                                 </div>
                             </div>
                         </div>

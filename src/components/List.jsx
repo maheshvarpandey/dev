@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
 import React,{useState} from "react";
+import banner1 from '../images/banner1.jpg';
 
 function List() {
     const [show, setShow] = useState(null)
@@ -21,9 +22,9 @@ function List() {
                 {/*  */}
                 
                 <div className="relative flex justify-center items-center md:justify-start ">
-                    <img className="hidden lg:block  w-full" src="https://www.linkpicture.com/q/banner1_12.jpg" alt="randeer" />
-                    <img className="md:block lg:hidden hidden  w-full " src="https://www.linkpicture.com/q/banner1_12.jpg" alt="randeer" />
-                    <img className="md:hidden w-full " src="https://www.linkpicture.com/q/banner1_12.jpg" alt="randeer" />
+                    <img className="hidden lg:block  w-full" src={banner1} alt="randeer" />
+                    <img className="md:block lg:hidden hidden  w-full " src={banner1} alt="randeer" />
+                    <img className="md:hidden w-full " src={banner1} alt="randeer" />
                     <div className="flex absolute justify-start flex-col md:flex-row items-center md:space-y-12 md:space-y-0">
                         <div className="py-4 sm:py-20  md:hidden" />
                         <div className="lg:w-auto custom sm:mt-96 md:mt-0 h-full flex px-4 md:px-0  z-10 justify-center items-center md:items-start flex-col md:pl-20 lg:px-20 2xl:px-44">
