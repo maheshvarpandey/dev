@@ -1,18 +1,19 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import img1 from '../images/cover2.jpg';
-import img2 from '../images/cover3.jpg';
-import img3 from '../images/cover4.jpg';
-import img4 from '../images/cover5.jpg';
-import img5 from '../images/cover7.jpg';
-import img6 from '../images/banner2.jpg';
+// import img1 from '../images/cover2.jpg';
+// import img2 from '../images/cover3.jpg';
+// import img3 from '../images/cover4.jpg';
+// import img4 from '../images/cover5.jpg';
+// import img5 from '../images/cover7.jpg';
+// import img6 from '../images/banner2.jpg';
 import { useEffect } from "react";
 import axios from "axios";
+import Gallery from "./Gallery";
 
 
 function Teams() {
 
-//     Access-Control-Allow-Origin:  http://127.0.0.1:3000
+// Access-Control-Allow-Origin:  http://127.0.0.1:3000
 // Access-Control-Allow-Methods: POST
 // Access-Control-Allow-Headers: Content-Type, Authorization
 
@@ -51,7 +52,7 @@ function Teams() {
                     <h1 className="xl:text-4xl text-3xl text-center text-gray-800 font-extrabold pb-6 sm:w-4/6 w-5/6 mx-auto">Some of our clients transformation is here</h1>
                 </div>
             </div>
-            <div className="w-full px-10 pt-10">
+            {/* <div className="w-full px-10 pt-10">
                 <section className="overflow-hidden text-gray-700">
                     <div className="container px-2 py-2 mx-auto lg:pt-24 lg:px-8">
                         <div className="flex flex-wrap -m-1 md:-m-2">
@@ -87,6 +88,10 @@ function Teams() {
                         </a>
                     </button>
                 </div>
+            </div> */}
+
+            <div>
+                <Gallery  />
             </div>
         </div>
     );
